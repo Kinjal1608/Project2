@@ -1,0 +1,142 @@
+
+    align-items: center;    10%%@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Varela+Round&family=Zeyada&display=swap');
+
+
+body{
+    background-color: navajowhite;
+
+
+}
+
+
+
+
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+
+nav{
+    font-family:'Playfair Display', serif;
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 89px;
+    background-color: white;
+
+
+}
+
+
+nav ul li{
+    padding: 0 12px;
+
+
+}
+.brand img{
+    width: 89px;
+}
+
+
+.brand{
+    display: inline-flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+
+.container{
+    min-height: 52vh;
+    background-color: orange;
+    color: black;
+    font-family: 'Zeyada', cursive ;
+    display: flex;
+    justify-content: flex-start;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 5px;
+    padding: 34px;
+ 
+
+
+}
+
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+
+ .icons{
+    margin-top: 32px;
+}
+
+
+.icons i{
+    cursor: pointer;
+
+
+}
+
+
+#myProgressBar{
+    width: 90vw;
+    cursor: pointer;
+    padding-block: 2px;
+
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: wheat;
+    border-radius: 20px;
+    color: black;
+    width:20%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+ }
+
+
+ .songItem:hover{
+    background-color: rgb(203, 172, 115);
+ }
+
+
+
+
+ .songItemContainer{
+    margin-top: 74px;
+}
+
+
+.songImg{
+    height: 40px;
+    border-radius: 10px;
+}
+
+
+ 
+
